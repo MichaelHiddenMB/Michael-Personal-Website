@@ -1,0 +1,17 @@
+body {
+    font-family: 'Sans', Courier, monospace;
+    color: #fce8b5;
+}
+.experience {
+    color: red;
+}
+
+#hobbies{
+    font-size: xx-large;
+}
+
+#experiences {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
