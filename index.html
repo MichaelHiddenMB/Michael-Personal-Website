@@ -16,39 +16,66 @@
       <li><a href="www.linkedin.com/in/michael-mccarroll-3556ba318">Linkedin</a></li>
       <li><a href="https://github.com/MichaelHiddenMB">Github</a></li>
     </menu>
-    <div class="window">
+    <!-- main body of window -->
+    <div class="window mainwindow">
       <div class="window-body">
-
-        <div class="textboximg">
-            <img src="pixel-speech-bubble.png">
-          </div>
-        <div class="window" style="width: 30rem">
-            <div class="title-bar">
-              <div class="title-bar-text">me.png</div>
-              <div class="title-bar-controls">
-                <button aria-label="Minimize"></button>
-                <button aria-label="Maximize"></button>
-                <button aria-label="Close"></button>
-              </div>
-            </div>
-            <div class="window-body">
-                <div class="image"> 
-                    <img src="headshot.PNG" alt="Picture Michael McCarroll">
+        <div class="profile-layout">
+          <div class="profile-window-wrapper">
+            <!-- window with my picture -->
+            <div class="window profile-window">
+                <!-- window header -->
+                <div class="title-bar">
+                  <div class="title-bar-text">me.png</div>
+                  <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                  </div>
                 </div>
-            </div>
+                <!-- speach bubble with my name -->
+                <div class="textboximg">
+                  <img src="pixel-speech-bubble.png" alt="Speech bubble">
+                </div>
+                <!-- photo of me which is made to fit inside of subwindow -->
+                <div class="window-body">
+                    <div class="image"> 
+                        <img src="headshot.PNG" alt="Picture Michael McCarroll">
+                    </div>
+                </div>
+              </div>
           </div>
-        <div id="header"> 
-            <div> 
-                <h1> Michael McCarroll</h1>
-                <h2> Computer Science Student at University of Maryland</h2>
-            </div>
+          <!-- text introducing me as a student -->
+          <div id="header"> 
+              <div> 
+                  <h2>Computer Science Student at <br>University of Maryland</h2>
+              </div>
+          </div>
         </div>
       </div>
+      <!-- organizer for subsections abt me -->
+      <menu role="tablist">
+        <li role="tab" aria-selected="true"><a href="#tabs">Desktop</a></li>
+        <li role="tab"><a href="#tabs">My computer</a></li>
+        <li role="tab"><a href="#tabs">Control panel</a></li>
+        <li role="tab"><a href="#tabs">Devices manager</a></li>
+        <li role="tab"><a href="#tabs">Hardware profiles</a></li>
+        <li role="tab"><a href="#tabs">Performance</a></li>
+      </menu>
+      <div class="window" role="tabpanel">
+        <div class="window-body">
+          <p>the tab content</p>
+        </div>
+      </div>
+    </div>
+        </div>
+        </div>
+        
+
     </div>
   </div>
 
 <hr>
-<!-- organizer for subsections -->
+
  <div id="aboutmebar">
     <div id="buttonbar">
 <button type="button"> About </button><button type="button"> Interests </button><button type="button"> Experiences </button>
